@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: orange;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-size: 50px;
+}
+
+input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultados {
+    margin-top: 20px;
+}
+
+
+.footer{
+    width: auto;
+    height: 70px;
+    padding: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  background-color: white;
+
+}
+.footer__div{
+    width: auto;
+    height: 38px;
+   
+}
+
+.footer__div p{
+    font-family: var(--Raleway);
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color: var(--color-text);
+
+
+}
